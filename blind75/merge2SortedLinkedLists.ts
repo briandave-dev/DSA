@@ -1,16 +1,6 @@
 import { arrayToList } from "../linkedLists/linkedList";
 import { printList } from "../linkedLists/linkedList";
-
-// Definition for singly-linked list.
-export class ListNode { // Renamed to avoid conflicts
-    val: number;
-    next: ListNode | null;
-    
-    constructor(val?: number, next?: ListNode | null) {
-        this.val = (val === undefined ? 0 : val);
-        this.next = (next === undefined ? null : next);
-    }
-}
+import { ListNode } from "../linkedLists/linkedList";
 
 // Function to merge two sorted linked lists
 function mergeTwoLists(l1: ListNode | null, l2: ListNode | null): ListNode | null {
