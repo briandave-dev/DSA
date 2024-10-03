@@ -4,6 +4,8 @@ function recursiveFibonacci(n){
     return recursiveFibonacci(n - 1) + recursiveFibonacci(n - 2);
 }
 
+console.log(recursiveFibonacci(3))
+
 function fibonacciSeries(n){
     const fib = [0, 1];
 
