@@ -1,4 +1,4 @@
-import { ListNode } from "../linkedLists/linkedList";
+import { ListNode } from "../../linkedLists/linkedList";
 
 function hasCycle(head: ListNode | null): boolean {
     if (head === null || head.next === null) return false;

@@ -1,6 +1,6 @@
-import { arrayToList } from "../linkedLists/linkedList";
-import { printList } from "../linkedLists/linkedList";
-import { ListNode } from "../linkedLists/linkedList";
+import { arrayToList } from "../../linkedLists/linkedList";
+import { printList } from "../../linkedLists/linkedList";
+import { ListNode } from "../../linkedLists/linkedList";
 
 // Function to merge two sorted linked lists
 function mergeTwoLists(l1: ListNode | null, l2: ListNode | null): ListNode | null {

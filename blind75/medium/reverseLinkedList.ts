@@ -1,6 +1,6 @@
-import { ListNode } from "../linkedLists/linkedList";
-import { printList } from "../linkedLists/linkedList";
-import { arrayToList } from "../linkedLists/linkedList";
+import { ListNode } from "../../linkedLists/linkedList";
+import { printList } from "../../linkedLists/linkedList";
+import { arrayToList } from "../../linkedLists/linkedList";
 
 function reverseList(head: ListNode | null): ListNode | null{
     let current: ListNode | null = head;
